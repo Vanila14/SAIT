@@ -48,11 +48,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Ждем 2 секунды (длина клика) перед переходом
             setTimeout(() => {
-                window.location.href = '/SAIT/index.html';
+                window.location.href = 'SAIT/index.html';
             }, 2000);
         });
     }
 });
+
 
 
 
