@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // === Звуки ===
     const clickSound = new Howl({ 
-        src: ['music/sounds/click.mp3'], 
+        src: ['../music/sounds/click.mp3'], 
         volume: 1.5,
         onload: () => console.log("%c[AUDIO] click.mp3 загружен", "color: lightgreen")
     });
@@ -53,6 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
 
 
 
