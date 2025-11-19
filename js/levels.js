@@ -48,10 +48,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Ждем 2 секунды (длина клика) перед переходом
             setTimeout(() => {
-                window.location.href = './index.html';
+                window.location.href = '../index.html';
             }, 2000);
         });
     }
 });
+
 
 
