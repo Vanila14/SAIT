@@ -1,0 +1,37 @@
+
+
+.levels-body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 60px;
+    font-family: "Comic Relief", sans-serif;
+    background: #8f9ada;
+    position: relative;
+    overflow: hidden;
+}
+
+.back-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 12px 20px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(8px);
+    border: 2px solid rgba(255,255,255,0.4);
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    z-index: 5;
+}
+
+.back-btn:hover {
+    background: rgba(255,255,255,0.25);
+    transform: scale(1.05);
+}
+
+
